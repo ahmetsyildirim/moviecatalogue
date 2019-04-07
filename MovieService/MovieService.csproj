@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Polly" Version="7.1.0" />
+    <PackageReference Include="Refit" Version="4.6.99" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MovieModel\MovieModel.csproj" />
+  </ItemGroup>
+
+</Project>
